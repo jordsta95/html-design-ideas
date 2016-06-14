@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+body,html{margin:0;padding:0;height:100%;width:100%;overflow:hidden;font-family:Arial, Helvetica, sans-serif;}
+body{background: rgba(255,255,255,1);background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(218,223,225,1) 100%);background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(255,255,255,1)), color-stop(100%, rgba(218,223,225,1)));background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(218,223,225,1) 100%);background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(218,223,225,1) 100%);background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(218,223,225,1) 100%);background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(218,223,225,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadfe1', GradientType=1 );padding-top:2.5%;}
+.login{background:#fff;width:15%;margin:15% auto;border:1px solid #000;border-radius:0 0 10px 0;padding:1em;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+input[type=submit] {padding:0.75em 1.5em;background:#6C7A89;border:0 none;color:#fff;cursor:pointer;-webkit-border-radius: 5px;border-radius: 5px;transition-property: all;transition-duration: 2.5s;transition-timing-function: cubic-bezier(0, 1, 0.5, 1);}
+input[type=submit]:hover{background:#ccc;color:#000;border-radius:15px;}
+input[type=text] {padding:5px;width:80%;border:2px solid #ccc;-webkit-border-radius: 5px;background:#ccc;border-radius: 5px;transition-property: all;transition-duration: 5s;transition-timing-function: cubic-bezier(0, 1, 0.5, 1);}
+input[type=text]:focus {background:#fff;border-color:#333;}
+hr{border: 0;height: 1px;background: #333;background-image: linear-gradient(to right, #ccc, #333, #ccc);}
+@media screen and (max-width: 1550px){
+.login{
+	width:25%;
+}
+}
+@media screen and (max-width: 1050px){
+.login{width:35%;}
+input[type=submit] {width:50%}
+}
+@media screen and (max-width: 800px){
+.login{width:66%;}
+}
+@media screen and (max-width: 400px){
+.login{width:88%;}
+input[type=submit] {width:83%}
+}
+</style>
+</head>
+<body>
+<div class="login">
+<p>Enter your login details</p>
+<hr>
+<form>
+<p><input type="text"></p>
+<p><input type="text"></p>
+<input type="submit">
+</form>
+</div>
+</body>
+</html>
